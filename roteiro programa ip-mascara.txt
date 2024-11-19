@@ -1,0 +1,6 @@
+entrada: ip1, ip2, máscara(1 a 32)
+
+máscara: a soma do número de bits da sub-rede(/24 -> 255.255.255.0(255 = 8 bits)
+
+método: converter ip em binário, converter máscara em binário e fazer um AND bit-a-bit, 
+se o resultado for igual para o ip1 e o ip2, significa que ambos possuem o mesmo endereço de sub-rede
