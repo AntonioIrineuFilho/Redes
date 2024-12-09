@@ -1,4 +1,4 @@
-Redes
+# Redes
 
 Definição -> Computadores interconectados compartilhando recursos e trocando informações por meio de um sistema de comunicação, o qual será a própria rede.
 
@@ -10,7 +10,7 @@ Por exemplo, assim como quando você pergunta as horas para alguém você espera
 
 A internet nada mais é que milhões de elementos interconectados, desde computadores, notebooks, dispositivos móveis, servidores e outros equipamentos. A internet não possui um gestor, suas aplicações são distribuídas e a rede é interligada por meio de enlaces físicos de comunicação, como fibra, cabos de cobre, radio e satélite. A rede se comunica enviando e recebendo pacotes por meio dos roteadores.
 
-Borda da rede
+## Borda da rede
 
 São os sistemas finais, executam os aplicativos e serão clientes(requisitando ao servidor) ou servidores(enviando para o cliente).
 
@@ -18,7 +18,7 @@ Modelo cliente/servidor -> O uma maquina cliente toma iniciativa enviando pedido
 
 Modelo peer-to-peer(P2P) -> Ambas maquinas podem ser cliente e servidor.
 
-Núcleo da rede
+## Núcleo da rede
 
 Dispositivos que encaminham pacotes de um dispositivo ao outro, possibilitando a interligação e a formação da rede, como roteadores, switchs e outros dispositivos.
 
@@ -28,7 +28,7 @@ Por exemplo, uma comunicação web funciona por meio do protocolo HTTP ou HTTPS(
 
 O roteador vai buscar o melhor caminho para encaminhar o pacote, considerando o congestionamento e a integridade, para assim encaminhar o pacote sem danos e da forma mais eficiente.
 
-Abrangência
+## Abrangência
 
 A internet é uma rede de escala global(WAN - Wide Area Network), todas as demais escalas de rede se conectam a ela por meio de um ISP(provedor de internet), os provedores vão possuir a infraestrutura necessária a WAN, como uma grande rede de fibra óptica, cabos metálicos e demais enlaces físicos.
 
