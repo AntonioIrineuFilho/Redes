@@ -1,4 +1,4 @@
-# Redes
+# Redes - Fundamentos e Abrangência
 
 Definição -> Computadores interconectados compartilhando recursos e trocando informações por meio de um sistema de comunicação, o qual será a própria rede.
 
