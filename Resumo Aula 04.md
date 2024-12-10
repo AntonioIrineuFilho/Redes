@@ -12,9 +12,9 @@ Topologia: Forma como os enlaces físicos estão arranajdos e organizados em uma
 
 ## Tipos de ligação
 
-Ponto-a-ponto: Conexão entre dois dispositivos sem intermédiarios entre eles, por exemplo, dois computadores conectado a um cabo Ethernet.
+Ponto-a-ponto: Conexão direta entre dois dispositivos sem intermédiarios entre eles, por exemplo, dois computadores conectado a um cabo Ethernet.
 
-Multi-ponto: Conexão entre três ou mais dispositivos por meio de um intermediário, como um hub, switch ou roteador. Por exemplo, dispositivos que se comunicam via IP possuem um roteador como intermediário na maioria das vezes, e essa comunicação pode ser recebida por outros dispositivos conectados ao roteador.
+Multi-ponto: Conexão direta(sem intermediarios) entre três ou mais dispositivos. Por exemplo, dispositivos que se comunicam via IP possuem um roteador como intermediário na maioria das vezes, e essa comunicação pode ser recebida por outros dispositivos conectados ao roteador.
 
 ## Características das topologias
 
