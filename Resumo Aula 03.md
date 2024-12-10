@@ -34,7 +34,7 @@ A camada física define como os bits serão transmitidos, a forma. A camada de e
 
 Controla o roteamento dos pacotes em redes distintas e realiza o endereçamento lógico das redes por meio do protocolo IP.
 
-*Protocolo ARP -> Converte o IP de dispositivos em uma rede local nos seus endereços MAC, para possibilitar comunicação local.
+*Protocolo ARP: Converte o IP de dispositivos em uma rede local nos seus endereços MAC, para possibilitar comunicação local.
 
 Protocolos: IPv4, IPv6, ARP, RARP, ICMP, IGMP.
 
@@ -42,7 +42,7 @@ Protocolos: IPv4, IPv6, ARP, RARP, ICMP, IGMP.
 
 Vai realizar a transmissão dos pacotes roteados na camada anterior até o destino, controlando fluxo, congestionamento e etc. Os principais protocolos que realizarão esse transporte é o TCP e o UDP.
 
-TCP x UDP -> O TCP é um protocolo orientado a conexão, logo, ele vai primeiro definir uma rota segura antes de transportar os dados. Já o UDP transportará direto, sem definir rota. O TCP é mais seguro quanto à integridade do pacote, no entanto, mais lento.
+TCP x UDP: O TCP é um protocolo orientado a conexão, logo, ele vai primeiro definir uma rota segura antes de transportar os dados. Já o UDP transportará direto, sem definir rota. O TCP é mais seguro quanto à integridade do pacote, no entanto, mais lento.
 
 Protocolos: TCP, UDP, RTP.
 
@@ -71,3 +71,15 @@ Camada de Rede: IPv4, IPv6, ARP, RARP, ICMP, IGMP.
 Camada de Enlace: Ethernet, Wi-Fi, PPP, HDLC, Frame Relay, Bluetooth.
 
 Camada Física: 10BaseT, 100BaseT, xDSL, SDH, V.35.
+
+## Unidades de dado por camada
+
+Física: Bits.
+
+Enlace: Frames.
+
+Rede: Pacotes.
+
+Transporte: Datagrama(UDP) / Segmentos(TCP).
+
+Aplicação: Mensagem / Dados.
